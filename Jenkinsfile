@@ -4,6 +4,8 @@ pipeline {
     environment {
             IMAGE_NAME = 'node-docker-compose'
             TAG_NAME = 'latest'
+            HUB_PWD = credentials('HUB_PWD')
+            HUB_USER = credentials('HUB_USER')
      }
 
     stages {
