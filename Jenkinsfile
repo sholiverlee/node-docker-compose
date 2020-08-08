@@ -1,5 +1,5 @@
 pipeline {
-    agent { docker { image 'docker' } }
+    agent { docker { image 'docker:latest' } }
 
     environment {
             IMAGE_NAME = 'node-docker-compose'
