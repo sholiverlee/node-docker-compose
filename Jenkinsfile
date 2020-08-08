@@ -3,7 +3,7 @@ pipeline {
 
     environment {
             IMAGE_NAME = 'node-docker-compose'
-            TAG_NAME = 'latest'
+            TAG_NAME = 'node10'
             HUB_PWD = credentials('HUB_PWD')
             HUB_USER = credentials('HUB_USER')
      }
